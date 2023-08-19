@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<form method="post" action="form_login/src/main/webapp/login.html/do-login">
-    <input type="text" name="email" placeholder="email"/>
-    <input type="password" name="password" placeholder="password"/>
-    <button>Submit</button>
-</form>
-
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <form method="post" action="/do-login">
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
 </html>
